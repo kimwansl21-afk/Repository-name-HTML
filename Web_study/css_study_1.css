@@ -1,0 +1,26 @@
+/*기본선택자 6개 중 핵심이 되는 선택자 3개*/
+.box {background-color: beige;}
+h1{color: aqua;}
+#title{color: aquamarine;}
+
+
+/* 글자 스타일 */
+.title{
+    color:brown;
+    font-size: 2rem;
+    font-weight:bold;
+    /* font-weight에는 숫자와 키워드가 모두 가능합니다 */
+    text-align: center;
+    line-height:3.0;
+    text-decoration: overline;
+    /* text-decoration은 단순 디자인적인 요소이고 del이나 ins같은 html텍스트들은 삭제된내용 추가된 내용등의 의미를 가짐 */
+}
+/* 폰트사이즈 px혹은 rem둘다 가능함 */
+
+
+/* 배경 */
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
