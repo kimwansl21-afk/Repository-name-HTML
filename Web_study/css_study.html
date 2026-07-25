@@ -4,10 +4,41 @@
         <meta charset="utf-8">
         <title>css 연습</title>
         <link rel="stylesheet" href="css_study_1.css">
+        <!-- stylesheet: html입장에서 css는 stylesheet -->
         <!-- 외부스타일 시트 적용 연습 -->
+         <!-- <style>
+            p{
+                color: red;
+                font-size: 4rem;
+            }
+         </style> --> 
+<!-- style태그로 head에 적어줘서 css적용해주기 -->
+        <style>
+            .ti{
+                color: aqua;
+            }
+            #mo{
+                color: bisque;
+            }
+            h1,p{
+                color:brown;
+            }
+            h1{color: blue;}
+            #dk{color: red;}
+            /* 색상을 지정하는 방법으로는 색상 코드 #~~ 혹dms rgb함수 rgb(100%,0%,0%) */
+        
+        </style>
+
+
 
     </head>
     <body>
+        <h1 clsss="ti">good</h1>
+        <!-- h1태그는 32px로 설정돼잇스빈다 -->
+        <p id="mo">bad</p>
+        <p>ddddd</p>
+
+
         <div class="title">
             <h3>안녕하세요 반갑ㅅㅂ니다</h3>
             <h4>where are you now atlantis under the sea</h4>
@@ -15,9 +46,15 @@
         </div>
         
         <div class="box">
-        <h1>hello</h1>
+        <h1 id="dk">hello</h1>
         <h2 id="title">hi</h2>
         </div>
+
+        <!-- <p style="color: beige;">안녕하세요감사해요 잘일어요</p> -->
+        <!-- 스타일 속성 사용해주기 -->
+         <p>
+            hihello
+         </p>
 
     </body>
 </html>

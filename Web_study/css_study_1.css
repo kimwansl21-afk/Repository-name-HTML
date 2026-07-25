@@ -1,26 +1,86 @@
 /*기본선택자 6개 중 핵심이 되는 선택자 3개*/
-.box {background-color: beige;}
+/* .box {background-color: beige;}
 h1{color: aqua;}
-#title{color: aquamarine;}
+#title{color: aquamarine;} */
+/* *{color:"black"}  전체선택자 */
+
+
+/* 그룹선택자 */
+/* h1, p, div{ color: "blue"} */
+/* 그룹선택자는 콤마로 여러 태그 연결 */
+
+/* 선택자가 겹치는 경우 아이디우선 클래스 그다음 태그 적용 */
 
 
 /* 글자 스타일 */
-.title{
+/* .title{
     color:brown;
     font-size: 2rem;
     font-weight:bold;
     /* font-weight에는 숫자와 키워드가 모두 가능합니다 */
-    text-align: center;
+    /* text-align: center;
     line-height:3.0;
-    text-decoration: overline;
+    text-decoration: overline; */
     /* text-decoration은 단순 디자인적인 요소이고 del이나 ins같은 html텍스트들은 삭제된내용 추가된 내용등의 의미를 가짐 */
-}
+/* } */ 
 /* 폰트사이즈 px혹은 rem둘다 가능함 */
+/* 
+html{font-size:3px;}
+뭐 이런식으로 되어있으면 html 폰트 사이즈의 몇배 할 건지가 rem으로 결정됩니다 */
+/* *{
+    font-family:serif;
+}, 
+font-family는 글꼴을 의미합니다 여러개를 나열할수잇고요, 앞에거가 적용이 안되면 뒤에거가 적용이 됩니다 */
+/* 
+<html>
+  <body>
+    <div>
+      <p>안녕하세요</p>
+    </div>
+  </body>
+</html>
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 20px;
+}
+
+div {
+    font-size: 30px;
+}
+
+p {
+    font-size: 2em;
+}
+
+p태그 가장 가까이 있는 부모 30px 거기에 2배 */
+/* 
+p{display: none;} 요소가 존재하지만 보이지 않습니다
+p{display: inline-block;} 인라인 요소인데 width나 height같은 block속성을 적용합니다 */
+
 
 
 /* 배경 */
-div{
+/* div{
     width: 100px;
     height: 100px;
     background-color: red;
-}
+} */
+
+/* 박스모델 */
+/* .box {
+    width: 300px;
+    height: 200px;
+    
+    padding: 20px;
+    border: 20px double pink;
+    단축속성이라 여러속성 동시에 지정
+    margin: 30px;
+} */
+/* 
+* {
+    box-sizing: border-box;
+} */
