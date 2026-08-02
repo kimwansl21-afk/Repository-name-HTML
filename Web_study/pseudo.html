@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            /* [type = "button"]{
+                width: 100px; height: 30px;
+                background-color: red; color: white;
+                border: none; border-radius: 10px;
+            }
+            [type = "button"]:hover {
+                background-color: blue;
+            }
+            [type = "button"]:active {
+                background-color: black;
+            } */
+            .hello{ display: flex;
+                justify-content: space-between;}
+             .box{width:30px; height:30px;
+            background-color: blue; }
+            .box:nth-child(2n - 1){color: white;}
+        </style>
+
+    </head>
+    <body>
+        <!-- <input type="button" value="클릭"> -->
+        <!-- <input type="text" placeholder="아무거나 쓰시오"> -->
+         <div class="hello">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+
+         </div>
+    </body>
+</html>
